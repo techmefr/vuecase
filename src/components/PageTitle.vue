@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import SocialIcon from 'src/components/SocialIcon.vue';
+
+</script>
 
 <template>
     <div id="top-line">
@@ -7,7 +10,11 @@
             <p>Je suis <span class="text-highlight-1">Gaëtan Compigni</span>,<br /> Concepteur Développeur
                 d'Application.
             </p>
-            <div id="social"></div>
+            <div id="social">
+                <SocialIcon img="yt" alt="youtube" link="https://www.youtube.com" />
+                <SocialIcon img="in" alt="linkedin" link="https:://www.linkedin.com" />
+                <SocialIcon img="ot" alt="other" link="https://www.other.com" />
+            </div>
         </div>
     </div>
 </template>
@@ -32,6 +39,10 @@
 
 #top-line p span {
     font-weight: bold;
+}
+
+#social {
+    margin-top: 15px;
 }
 
 @media (max-width: 905px) {
