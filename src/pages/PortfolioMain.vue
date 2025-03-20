@@ -1,7 +1,8 @@
 <script setup>
 import PageTitle from '../components/PageTitle.vue'
 import AboutMe from '../components/AboutMe.vue';
-import MesTechno from '../components/MesTechno.vue'
+import MesTechno from '../components/MesTechno.vue';
+import MesXP from '../components/MesXp.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import MesTechno from '../components/MesTechno.vue'
         <PageTitle />
         <AboutMe />
         <MesTechno />
+        <MesXP />
     </div>
 </template>
 
