@@ -1,10 +1,10 @@
 <script setup>
-import PageTitle from 'src/components/PageTitle.vue'
+import PageTitle from '../components/PageTitle.vue'
 </script>
 
 <template>
     <div>
-        <PageTitle/>
+        <PageTitle />
     </div>
 </template>
 
